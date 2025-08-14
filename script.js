@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
     copyToClipboard(derivarTextos[derivarIndex]);
   
     // Avanzar al siguiente saludo (y volver al principio si es el último)
-    derivarIndex = (derivarIndex + 1) % saludos.length;
+    derivarIndex = (derivarIndex + 1) % derivarTextos.length;
   });
 
 
@@ -486,5 +486,6 @@ Te envio 4li4s? confirmame ❣️
     document.body.style.overflow = "auto"; // Permitir desplazamiento del body
   });
 });
+
 
 
