@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const referidoAcreditado = document.getElementById("btn-referidoAcreditado");
   const derivar = document.getElementById("btn-derivar");  
   const noIngreso = document.getElementById("btn-noIngreso");
+  const felicidades = document.getElementById("btn-felicidades");
   const soporte = document.getElementById("btn-soporte");
   const sistemaDePagos = document.getElementById("btn-sistemaDePagos");
   const overlay = document.getElementById("overlay");
@@ -65,7 +66,36 @@ document.addEventListener("DOMContentLoaded", function () {
     derivarIndex = (derivarIndex + 1) % derivarTextos.length;
   });
 
+  const felicidadesTextos = [
+`🎉 Felicidades! Únete a nuestra comunidad para enterarte cuando lancemos SÚPER BONUS y no te lo pierdas ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🔥 No te pierdas los SÚPER BONUS! Únete a nuestra comunidad y entérate siempre a tiempo ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`💥 Atento! Los SÚPER BONUS están que arden. Entra a nuestra comunidad y aprovecha ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🥳 Siempre informado, siempre ganando. Únete y recibe las alertas de SÚPER BONUS ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🎯 Si quieres cazar todos los SÚPER BONUS, únete a nuestra comunidad ahora ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🚀 Los SÚPER BONUS no esperan. Entra a nuestra comunidad y no dejes pasar ninguno ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`💎 Conéctate con nosotros y recibe los avisos de SÚPER BONUS antes que nadie ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`⚡ Sé parte de la comunidad y atrapa cada SÚPER BONUS que lancemos ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`📢 Atención! Para que no te pierdas ningún SÚPER BONUS, únete ya ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🎊 Felicidades! En nuestra comunidad te avisamos cuando haya SÚPER BONUS disponibles ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🔥 Solo los de la comunidad saben primero cuándo hay SÚPER BONUS. Únete ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`💥 No más FOMO! Únete y recibe los avisos de SÚPER BONUS al instante ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🥇 Los SÚPER BONUS son para los rápidos. Entra a la comunidad y actívate ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🏆 Gana siempre! En nuestra comunidad sabrás cuándo hay SÚPER BONUS ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`✨ La clave para no perder ningún SÚPER BONUS: estar en nuestra comunidad ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`📲 Activa las notificaciones en nuestra comunidad y recibe cada SÚPER BONUS ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🎁 Los SÚPER BONUS no se anuncian dos veces… por eso únete a la comunidad ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🚨 Alerta de SÚPER BONUS! Únete para recibirlas en tiempo real ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`🤑 Quieres más ganancias? Los SÚPER BONUS están en nuestra comunidad ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`,
+`💌 Un consejo: si quieres aprovechar cada SÚPER BONUS, entra ya a la comunidad ❤️‍🔥✌🏼 https://whatsapp.com/channel/0029Vb6cOHEDTkK0IRxpWI33`
+];
+  let felicidadesIndex = 0;
 
+  felicidades.addEventListener("click", () => {
+    copyToClipboard(felicidadesTextos[felicidadesIndex]);
+  
+    // Avanzar al siguiente saludo (y volver al principio si es el último)
+    felicidadesIndex = (felicidadesIndex + 1) % felicidadesTextos.length;
+  });
 
   
   const textos = [
@@ -486,6 +516,7 @@ Te envio 4li4s? confirmame ❣️
     document.body.style.overflow = "auto"; // Permitir desplazamiento del body
   });
 });
+
 
 
 
