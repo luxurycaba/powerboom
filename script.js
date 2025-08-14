@@ -408,7 +408,7 @@ Puede encontrar el contacto en el menú de nuestra página, en la parte inferior
 L1NK: https://b22m.net
 
 ❤️‍🔥M1n1mo de c4rg4: *$1.500*
-❤️‍🔥M1n1m0 de retiro: *$4.000*
+❤️‍🔥M1n1m0 de retiro: *$3.000*
 ❤️‍🔥PAGOS las 24 hs 🕒
 ❤️‍🔥B0nus en todas tus c4rgas diarias 
 
@@ -450,3 +450,4 @@ Te envio 4li4s? confirmame ❣️
     document.body.style.overflow = "auto"; // Permitir desplazamiento del body
   });
 });
+
