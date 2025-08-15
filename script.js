@@ -36,26 +36,26 @@ document.addEventListener("DOMContentLoaded", function () {
   let firstVisit = true;
 
   const derivarTextos = [
-`👌 Genial! Para acr3drit4r tus fich4s comunicate al link con la línea principal y envía USU4RIO y C0MPROB4NTE para que las c4jer4s acr3drit3n tu c4rga 👉 https://wa.me/541126771684`,
-`✅ Listo! Entra aquí y escribe a la línea principal enviando USU4RIO y C0MPROB4NTE para acr3drit4r fich4s 👉 https://wa.me/541126771684`,
-`🔥 Perfecto! Usa este enlace para hablar con la línea principal y envía USU4RIO y C0MPROB4NTE, así las c4jer4s harán tu c4rga 👉 https://wa.me/541126771684`,
-`👍 Buen trabajo! Comunicate con la línea principal aquí, manda USU4RIO y C0MPROB4NTE y se acr3drit4 tu fich4s 👉 https://wa.me/541126771684`,
-`🥳 Todo OK! Para acr3drit4r fich4s escribe a la línea principal y envía USU4RIO + C0MPROB4NTE 👉 https://wa.me/541126771684`,
-`📲 Dale! Entra al link, habla con la línea principal y manda USU4RIO y C0MPROB4NTE para acr3drit4r 👉 https://wa.me/541126771684`,
-`🚀 Ya casi! Comunicate con la línea principal aquí y envía USU4RIO + C0MPROB4NTE para que las c4jer4s acr3drit3n 👉 https://wa.me/541126771684`,
-`💬 Buenísimo! Manda mensaje a la línea principal con USU4RIO y C0MPROB4NTE para acr3drit4r tu c4rga 👉 https://wa.me/541126771684`,
-`🎯 Perfecto! Este es el link para que envíes USU4RIO y C0MPROB4NTE a la línea principal y se acr3drit4n tus fich4s 👉 https://wa.me/541126771684`,
-`🔑 Ahora sí! Comunicate aquí con la línea principal, envía USU4RIO y C0MPROB4NTE y se hará la acr3dit4ción 👉 https://wa.me/541126771684`,
-`👌 Ya casi está! Solo falta que uses este link, envíes USU4RIO + C0MPROB4NTE a la línea principal y listo 👉 https://wa.me/541126771684`,
-`📞 Con este link puedes escribir a la línea principal, mandar USU4RIO y C0MPROB4NTE y acr3drit4r tu c4rga 👉 https://wa.me/541126771684`,
-`📌 Importante! Para acr3drit4r fich4s comunicate aquí y manda USU4RIO y C0MPROB4NTE 👉 https://wa.me/541126771684`,
-`💎 Todo listo! Solo falta que las c4jer4s acr3drit3n, habla con la línea principal y envía USU4RIO y C0MPROB4NTE 👉 https://wa.me/541126771684`,
-`⚡ Entra a este link, contacta a la línea principal y manda USU4RIO y C0MPROB4NTE para acr3drit4r 👉 https://wa.me/541126771684`,
-`🙌 Bien! Para finalizar acr3drit4r tus fich4s comunicate aquí y envía USU4RIO y C0MPROB4NTE 👉 https://wa.me/541126771684`,
-`✔️ Solo un paso más: usa este enlace, manda USU4RIO + C0MPROB4NTE y las c4jer4s acr3drit3n 👉 https://wa.me/541126771684`,
-`🤝 Listo para jugar! Acr3drit4 tus fich4s contactando aquí y enviando USU4RIO y C0MPROB4NTE 👉 https://wa.me/541126771684`,
-`📲 Este es el enlace para hablar con la línea principal, mandar USU4RIO y C0MPROB4NTE y acr3drit4r tu c4rga 👉 https://wa.me/541126771684`,
-`💥 Dale click aquí y envía USU4RIO y C0MPROB4NTE a la línea principal para acr3drit4r fich4s 👉 https://wa.me/541126771684`
+`👌 Genial! Para acr3drit4r tus fich4s comunicate al link con la línea principal y envía USU4RIO y C0MPROB4NTE para que las c4jer4s acr3drit3n tu c4rga 👉 https://wa.me/5493329394675`,
+`✅ Listo! Entra aquí y escribe a la línea principal enviando USU4RIO y C0MPROB4NTE para acr3drit4r fich4s 👉 https://wa.me/5493329394675`,
+`🔥 Perfecto! Usa este enlace para hablar con la línea principal y envía USU4RIO y C0MPROB4NTE, así las c4jer4s harán tu c4rga 👉 https://wa.me/5493329394675`,
+`👍 Buen trabajo! Comunicate con la línea principal aquí, manda USU4RIO y C0MPROB4NTE y se acr3drit4 tu fich4s 👉 https://wa.me/5493329394675`,
+`🥳 Todo OK! Para acr3drit4r fich4s escribe a la línea principal y envía USU4RIO + C0MPROB4NTE 👉 https://wa.me/5493329394675`,
+`📲 Dale! Entra al link, habla con la línea principal y manda USU4RIO y C0MPROB4NTE para acr3drit4r 👉 https://wa.me/5493329394675`,
+`🚀 Ya casi! Comunicate con la línea principal aquí y envía USU4RIO + C0MPROB4NTE para que las c4jer4s acr3drit3n 👉 https://wa.me/5493329394675`,
+`💬 Buenísimo! Manda mensaje a la línea principal con USU4RIO y C0MPROB4NTE para acr3drit4r tu c4rga 👉 https://wa.me/5493329394675`,
+`🎯 Perfecto! Este es el link para que envíes USU4RIO y C0MPROB4NTE a la línea principal y se acr3drit4n tus fich4s 👉 https://wa.me/5493329394675`,
+`🔑 Ahora sí! Comunicate aquí con la línea principal, envía USU4RIO y C0MPROB4NTE y se hará la acr3dit4ción 👉 https://wa.me/5493329394675`,
+`👌 Ya casi está! Solo falta que uses este link, envíes USU4RIO + C0MPROB4NTE a la línea principal y listo 👉 https://wa.me/5493329394675`,
+`📞 Con este link puedes escribir a la línea principal, mandar USU4RIO y C0MPROB4NTE y acr3drit4r tu c4rga 👉 https://wa.me/5493329394675`,
+`📌 Importante! Para acr3drit4r fich4s comunicate aquí y manda USU4RIO y C0MPROB4NTE 👉 https://wa.me/5493329394675`,
+`💎 Todo listo! Solo falta que las c4jer4s acr3drit3n, habla con la línea principal y envía USU4RIO y C0MPROB4NTE 👉 https://wa.me/5493329394675`,
+`⚡ Entra a este link, contacta a la línea principal y manda USU4RIO y C0MPROB4NTE para acr3drit4r 👉 https://wa.me/5493329394675`,
+`🙌 Bien! Para finalizar acr3drit4r tus fich4s comunicate aquí y envía USU4RIO y C0MPROB4NTE 👉 https://wa.me/5493329394675`,
+`✔️ Solo un paso más: usa este enlace, manda USU4RIO + C0MPROB4NTE y las c4jer4s acr3drit3n 👉 https://wa.me/5493329394675`,
+`🤝 Listo para jugar! Acr3drit4 tus fich4s contactando aquí y enviando USU4RIO y C0MPROB4NTE 👉 https://wa.me/5493329394675`,
+`📲 Este es el enlace para hablar con la línea principal, mandar USU4RIO y C0MPROB4NTE y acr3drit4r tu c4rga 👉 https://wa.me/5493329394675`,
+`💥 Dale click aquí y envía USU4RIO y C0MPROB4NTE a la línea principal para acr3drit4r fich4s 👉 https://wa.me/5493329394675`
   ];
   let derivarIndex = 0;
 
@@ -516,6 +516,7 @@ Te envio 4li4s? confirmame ❣️
     document.body.style.overflow = "auto"; // Permitir desplazamiento del body
   });
 });
+
 
 
 
