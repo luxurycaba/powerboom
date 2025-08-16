@@ -97,6 +97,27 @@ document.addEventListener("DOMContentLoaded", function () {
     felicidadesIndex = (felicidadesIndex + 1) % felicidadesTextos.length;
   });
 
+  const sectorPagosTextos = [
+'📢 Aviso importante: El sector de 💳 pagos estará activo desde las ⏰ 8AM hasta nuevo aviso. 🙏 Por favor, déjame tu alias y a partir de esa hora te van a estar respondiendo.',
+'⚡ El área de 💸 pagos funcionará desde las ⏰ 8:00 AM hasta nuevo aviso. ✍️ Deja tu alias y apenas sea la hora ⏳ recibirás respuesta.',
+'🔔 Atención: El sector de 💳 pagos abre desde las ⏰ 8 AM hasta que contratemos más 👨‍💻 personal. 👉 Deja tu alias y te contestarán a partir de ese horario.',
+'📣 Importante: Los 💵 pagos estarán habilitados desde ⏰ 8:00 AM. ⏳ Hasta nuevo aviso seguiremos en este horario. ✍️ Déjame tu alias y te respondemos desde las 8.',
+'🚨 Info útil: El área de 💳 pagos abre a las ⏰ 8AM. 🙌 Hasta nuevo aviso seguiremos con ese horario. ✍️ Déjanos tu alias y desde esa hora te responden.',
+'📢 El sector de 💸 pagos funcionará ⏰ desde las 8:00 AM hasta nuevo aviso. 👤 Déjame tu alias y a partir de esa hora te darán respuesta.',
+'⚠️ Atención: El área de 💵 pagos solo estará disponible ⏰ a partir de las 8 AM. 📌 Déjanos tu alias y desde esa hora te contestamos.',
+'🔔 Recordatorio: 💳 pagos funcionará de ⏰ 8 AM en adelante hasta contratar más 👥 personal. 📝 Déjame tu alias y te responden desde esa hora.',
+'📣 Aviso: El sector de 💸 pagos abre ⏰ a las 8 AM. 🙏 Hasta nuevo aviso mantenemos ese horario. ✍️ Deja tu alias y desde esa hora obtendrás respuesta.',
+'🚨 Importante: El área de 💳 pagos estará disponible ⏰ desde las 8AM. 👥 Por ahora será así hasta nuevo aviso. 📝 Déjame tu alias y desde esa hora te contestan.'
+];
+  let sectorPagosIndex = 0;
+
+  sectorPagos.addEventListener("click", () => {
+    copyToClipboard(sectorPagosTextos[sectorPagosIndex]);
+  
+    // Avanzar al siguiente saludo (y volver al principio si es el último)
+    sectorPagosIndex = (sectorPagosIndex + 1) % sectorPagosTextos.length;
+  });
+
   
   const textos = [
 `Ya están! Mucha suerte!! 🍀`,
@@ -223,13 +244,6 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Avanzar al siguiente saludo (y volver al principio si es el último)
     linksIndex = (linksIndex + 1) % links.length;
-  });
-
-  sectorPagos.addEventListener("click", () => {
-    const texto = `FELICIDADES!!! Para retirar tu premio es por medio del siguiente link, https://wa.me/5493329394675
-
-Recordá enviar tu nombre de usuario por favor!`;
-    copyToClipboard(texto);
   });
 
   titular.addEventListener("click", () => {
@@ -516,6 +530,7 @@ Te envio 4li4s? confirmame ❣️
     document.body.style.overflow = "auto"; // Permitir desplazamiento del body
   });
 });
+
 
 
 
