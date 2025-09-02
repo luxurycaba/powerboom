@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const sectorPagos = document.getElementById("btn-sectorPagos");  
   const solicitarUsuario = document.getElementById("btn-solicitarUsuario");
   const referidoAcreditado = document.getElementById("btn-referidoAcreditado");
+  const referidasAcreditadas = document.getElementById("btn-referidasAcreditadas");
   const linea = document.getElementById("btn-linea"); 
   const linea2 = document.getElementById("btn-linea2"); 
   const linea3 = document.getElementById("btn-linea3"); 
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const felicidades = document.getElementById("btn-felicidades");
   const soporte = document.getElementById("btn-soporte");
   const sistemaDePagos = document.getElementById("btn-sistemaDePagos");
+  const cartera = document.getElementById("btn-cartera");  
   const overlay = document.getElementById("overlay");
   const overlayBienvenida = document.getElementById("overlay-bienvenida");
   const overlayRegistrar = document.getElementById("overlay-registrar");
@@ -375,13 +377,13 @@ Ya podes ingresar a nuestra web: http://kingcash7.net 🎰
   });
 
   sistemaDeReferidos.addEventListener("click", () => {
-    const texto = `👥 *SISTEMA DE REFERIDOS* 👥
+    const texto = `🎉 *PROGRAMA DE REFERIDOS* 🎉
+Invita a tus amigos y GÁNATE 1,500 fichas + 3,000 BONUS 💎
 
-🔺 Por cada conocido que venga de tu parte y comience a jugar con nosotros te *REGALAMOS 4000 EN SALDO* 🎁🤑
+👉 Solo pásales nuestro número y diles que vienen de tu parte.
+✅ Cuando tu amigo haga su primera carga, recibirás automáticamente tus fichas de REFERIDO.
 
-*¿Como invitar a tus amigos?*
-
-❤️‍🔥 Compartiendo nuestro contacto, y que nos avise que viene de parte de tu usuario. ❤️‍🔥`;
+¡Mientras más invites, más ganas! 🚀🔥`;
     copyToClipboard(texto);
   });
 
@@ -402,6 +404,14 @@ En caso de no usar la bonificación, no es posible retirarla 🚫`;
     const texto = `Me recordarias tu usuario porfi 🙏🏼`;
     copyToClipboard(texto);
   });
+  
+  referidasAcreditadas.addEventListener("click", () => {
+    const texto = `🎉 ¡Fichas de Referidos Acreditadas! 🎉
+Tus fichas ya fueron sumadas ✅
+🙌 ¡Gracias por ser parte de esta comunidad y ayudarnos a seguir creciendo juntos! ❤️‍🔥
+`;
+    copyToClipboard(texto);
+  });
 
   noIngreso.addEventListener("click", () => {
     const texto = `🚫 Tu transferencia todavía no impactó 🚫
@@ -413,9 +423,16 @@ En caso de no usar la bonificación, no es posible retirarla 🚫`;
   });
 
   soporte.addEventListener("click", () => {
-    const texto = `Por problemas e inconvenientes con la plataforma le solicitamos que *se comuníque con el whatsapp de soporte*. 📲
+    const texto = `🛠️ Soporte – Información necesaria 🛠️
+Para poder revisar tu caso de manera rápida y efectiva, por favor envíanos los siguientes datos:
 
-Puede encontrar el contacto en el menú de nuestra página, en la parte inferior del lado izquierdo donde figuran tres rayitas ☺️`;
+1️⃣ ID de usuario
+2️⃣ Hora exacta del incidente
+3️⃣ Nombre del juego o bono involucrado
+4️⃣ Tipo de dispositivo (Celular 📱 o PC 💻)
+5️⃣ Descripción detallada de lo ocurrido (si es posible, adjunta fotos o videos como respaldo).
+
+✅ Con esta información podremos darte una solución mucho más ágil.`;
     copyToClipboard(texto);
   });
 
@@ -435,6 +452,16 @@ Puede encontrar el contacto en el menú de nuestra página, en la parte inferior
 ❤️‍🔥Si la carga a partir de 50.000 puede retirar hasta 250.000 🫰🏼
 
 ❤️‍🔥Si la carga es a partir de 100.000 puede retirar hasta 300.000 diarios 🙌🏻
+`;
+    copyToClipboard(texto);
+  });
+
+  cartera.addEventListener("click", () => {
+    const texto = `💰 Cómo ver tu saldo Retirable 💰
+1. En la pantalla principal, ubica tu saldo.
+2. A la derecha del saldo verás el ícono de una personita 👤, tócala.
+3. Se abrirá un menú.
+4. Entra en la pestaña “CARTERA” y ahí podrás ver tu saldo RETIRABLE. ✅
 `;
     copyToClipboard(texto);
   });
