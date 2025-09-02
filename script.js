@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const cbu = document.getElementById("btn-cbu");
   const btnBienvenida = document.getElementById("btn-bienvenida");
   const btnRegistrarUsuario = document.getElementById("btn-registrarUsuario");
-  const bienvenidaPubli = document.getElementById("btn-bienvenidaPubli");
   const acreditadas = document.getElementById("btn-acreditadas");
   const link = document.getElementById("btn-link");
   const sistemaDeReferidos = document.getElementById("btn-sistemaDeReferidos");
@@ -356,16 +355,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   cbu.addEventListener("click", () => {
     const texto = `${inputCBU}`;
-    copyToClipboard(texto);
-  });
-
-  bienvenidaPubli.addEventListener("click", () => {
-    const texto = `Bienvenida/o a el numero oficial de *MONTANA* 💯🤑
-
-Ya podes ingresar a nuestra web: http://kingcash7.net 🎰
-
-♦️ Te vamos a estar regalando en todas tus cargas diarias *50% de bono* 👏🏼🎁
-`;
     copyToClipboard(texto);
   });
 
